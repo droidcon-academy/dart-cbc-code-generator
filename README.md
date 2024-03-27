@@ -1,2 +1,2 @@
 # Study materials and source code for **Droidcon Academy** course 
-> # Add Course Name 
+> # Mastering Code Generation in Dart to Write Repetitive Code Automatically 
