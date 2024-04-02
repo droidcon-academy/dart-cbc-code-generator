@@ -1,0 +1,14 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "annotations",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    }
+  ],
+  "generated": "2024-03-29T07:02:28.338764Z",
+  "generator": "pub",
+  "generatorVersion": "3.1.1"
+}

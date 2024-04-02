@@ -1,0 +1,18 @@
+targets:
+  $default:
+    builders:
+      generators|annotations:
+        enabled: true
+
+builders:
+  generators:
+    target: ":generators"
+    import: "package:generators/builder.dart"
+    builder_factories: ["generateHelperMethods"]
+    build_extensions: { ".dart": [".helper_methods.g.part"] }
+    auto_apply: dependents
+    build_to: cache
+    # This ensures the correct order. Not absolutely necessary, but it's good to be explicit.
+    runs_before:
+    - source_gen|combining_builder
+    applies_builders: ["source_gen|combining_builder"]
