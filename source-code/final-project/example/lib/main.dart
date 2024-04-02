@@ -42,9 +42,9 @@ class _HomePageState extends State<HomePage> {
           padding: const EdgeInsets.symmetric(horizontal: 40),
           child: Table(
             children: [
-              getTableRow('Name', person.name),
-              getTableRow('Age', person.age.toString()),
-              getTableRow('Codes', person.codes.toString()),
+              // Fill the table with all the fields of the person object.
+              for (final entry in person.toJson().entries)
+                getTableRow(entry.key, entry.value.toString())
             ],
           ),
         ),
@@ -57,6 +57,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
+  // Create table row with key and value cells.
   TableRow getTableRow(String key, String value) {
     return TableRow(
       children: [
@@ -66,6 +67,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
+  // Changes the name of the person.
   void _changeName() {
     setState(() {
       person = person.copyWith(name: 'Alex');
