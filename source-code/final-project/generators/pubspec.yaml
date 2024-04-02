@@ -1,5 +1,5 @@
 name: generators
-description: Class serialisation and clone methods.
+description: Generates class serialisation and clone methods.
 version: 1.0.0
 
 publish_to: none

@@ -63,7 +63,7 @@
     },
     {
       "name": "build_runner",
-      "rootUri": "file:///C:/Users/imaac/AppData/Local/Pub/Cache/hosted/pub.dev/build_runner-2.4.8",
+      "rootUri": "file:///C:/Users/imaac/AppData/Local/Pub/Cache/hosted/pub.dev/build_runner-2.4.9",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -135,9 +135,9 @@
     },
     {
       "name": "frontend_server_client",
-      "rootUri": "file:///C:/Users/imaac/AppData/Local/Pub/Cache/hosted/pub.dev/frontend_server_client-3.2.0",
+      "rootUri": "file:///C:/Users/imaac/AppData/Local/Pub/Cache/hosted/pub.dev/frontend_server_client-4.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "glob",
@@ -201,9 +201,9 @@
     },
     {
       "name": "mime",
-      "rootUri": "file:///C:/Users/imaac/AppData/Local/Pub/Cache/hosted/pub.dev/mime-1.0.4",
+      "rootUri": "file:///C:/Users/imaac/AppData/Local/Pub/Cache/hosted/pub.dev/mime-1.0.5",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.2"
     },
     {
       "name": "package_config",
@@ -314,10 +314,16 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "web_socket_channel",
-      "rootUri": "file:///C:/Users/imaac/AppData/Local/Pub/Cache/hosted/pub.dev/web_socket_channel-2.4.0",
+      "name": "web",
+      "rootUri": "file:///C:/Users/imaac/AppData/Local/Pub/Cache/hosted/pub.dev/web-0.5.1",
       "packageUri": "lib/",
-      "languageVersion": "2.15"
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "web_socket_channel",
+      "rootUri": "file:///C:/Users/imaac/AppData/Local/Pub/Cache/hosted/pub.dev/web_socket_channel-2.4.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
     },
     {
       "name": "yaml",
@@ -332,7 +338,7 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2024-03-29T06:59:39.759100Z",
+  "generated": "2024-04-02T08:47:03.087053Z",
   "generator": "pub",
-  "generatorVersion": "3.1.1"
+  "generatorVersion": "3.3.3"
 }
