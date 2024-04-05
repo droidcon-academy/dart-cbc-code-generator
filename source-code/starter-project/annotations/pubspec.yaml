@@ -1,0 +1,8 @@
+name: annotations
+description: Annotations to generate helper methods.
+version: 1.0.0
+
+publish_to: none
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'

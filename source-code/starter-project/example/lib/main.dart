@@ -43,8 +43,9 @@ class _HomePageState extends State<HomePage> {
           child: Table(
             children: [
               // Fill the table with all the fields of the person object.
-              for (final entry in person.toJson().entries)
-                buildTableRow(entry.key, entry.value.toString())
+              buildTableRow('Name', person.name),
+              buildTableRow('Age', person.age.toString()),
+              buildTableRow('Codes', person.codes.toString()),
             ],
           ),
         ),
@@ -70,7 +71,7 @@ class _HomePageState extends State<HomePage> {
   // Changes the name of the person.
   void _changeName() {
     setState(() {
-      person = person.copyWith(name: 'Alex');
+      person = Person(name: 'Alex', age: 25, codes: true);
     });
   }
 }

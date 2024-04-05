@@ -7,9 +7,6 @@ targets:
 builders:
   generators:
     target: ":generators"
-    import: "package:generators/builder.dart"
-    builder_factories: ["generateHelperMethods"]
-    build_extensions: { ".dart": [".helper_methods.g.part"] }
     auto_apply: dependents
     build_to: cache
     runs_before:

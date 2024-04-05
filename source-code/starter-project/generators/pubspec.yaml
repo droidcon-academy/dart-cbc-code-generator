@@ -1,0 +1,17 @@
+name: generators
+description: Generates class serialisation and clone methods.
+version: 1.0.0
+
+publish_to: none
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+
+dependencies:
+  build:
+  source_gen:
+  annotations:
+    path: ../annotations/
+
+dev_dependencies:
+  build_runner:
